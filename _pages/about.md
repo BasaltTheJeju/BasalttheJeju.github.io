@@ -1,56 +1,87 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "BioGraphy"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [Academic Pages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the repository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. Incidentally, these same features make it a great template for anyone that needs to show off a professional template!
+I am a Backend Engineer with experience building IoT and data platforms using Java and Spring Boot.
 
- You can fork [this template](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and Markdown files, add your own PDFs and other content, and have your own site for free, with no ads!
+I developed a system for collecting and processing weather IoT data, and successfully scaled it from a Jeju-based deployment to a nationwide platform covering all regions of Korea. In this process, I improved database schema design, optimized complex queries, and re-architected external weather API integrations to enhance system scalability and data processing capabilities.
 
-A data-driven personal website
-======
-Like many other Jekyll-based GitHub Pages templates, Academic Pages makes you separate the website's content from its form. The content & metadata of your website are in structured Markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various Markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+I have experience operating backend services in AWS environments and building CI/CD pipelines using Docker and GitHub Actions, improving deployment automation and operational efficiency.
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your Markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over - just be sure to save the Markdown files! You can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
+I studied German Language and Computer Software at Busan University of Foreign Studies, where I built both global communication skills and a technical foundation. After transitioning into software engineering, I strengthened my backend development skills through an intensive Java-focused bootcamp at Multicampus. I began my professional career at an IoT-based aquaculture company in Jeju Island.
 
-For those users that need more advanced functionality, the template also supports the following popular tools:
-- [MathJax](https://www.mathjax.org/) for mathematical equations
-- [Mermaid](https://mermaid.js.org/) for diagraming
-- [Plotly](https://plotly.com/javascript/) for plotting
+On a personal level, I enjoy playing baseball daily, where I record and analyze my performance through video to continuously improve using a data-driven approach. I also maintain physical fitness through consistent weight training.
 
-Getting started
-======
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Fork [this template](https://github.com/academicpages/academicpages.github.io) by clicking the "Use this template" button in the top right. 
-1. Go to the repository's settings (rightmost item in the tabs that start with "Code", should be below "Unwatch"). Rename the repository "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and create content & metadata (see below -- also see [this set of diffs](https://archive.is/3TPas) showing what files were changed to set up [an example site](https://getorg-testacct.github.io) for a user with the username "getorg-testacct")
-1. Upload any files (like PDFs, .zip files, etc.) to the files/ directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.  
-1. Check status by going to the repository settings, in the "GitHub pages" section
+I am particularly interested in backend architecture and DevOps practices, with a career focus balanced between backend development (68%) and DevOps (32%).
 
-Site-wide configuration
-------
-The main configuration file for the site is in the base directory in [_config.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_config.yml), which defines the content in the sidebars and other site-wide features. You will need to replace the default variables with ones about yourself and your site's github repository. The configuration file for the top menu is in [_data/navigation.yml](https://github.com/academicpages/academicpages.github.io/blob/master/_data/navigation.yml). For example, if you don't have a portfolio or blog posts, you can remove those items from that navigation.yml file to remove them from the header. 
+## Education
 
-Create content & metadata
-------
-For site content, there is one Markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a Markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each Markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+**Busan University of Foreign Studies (BUFS)**  
+Bachelor of Arts & Bachelor of Engineering  
+German Language / Computer Software  
 
-**Markdown generator**
+**Multicampus (Samsung Bootcamp)**  
+Java Backend Engineering Program  
 
-The repository includes [a set of Jupyter notebooks](https://github.com/academicpages/academicpages.github.io/tree/master/markdown_generator
-) that converts a CSV containing structured data about talks or presentations into individual Markdown files that will be properly formatted for the Academic Pages template. The sample CSVs in that directory are the ones I used to create my own personal website at stuartgeiger.com. My usual workflow is that I keep a spreadsheet of my publications and talks, then run the code in these notebooks to generate the Markdown files, then commit and push them to the GitHub repository.
+## Interests
 
-How to edit your site's GitHub repository
-------
-Many people use a git client to create files on their local computer and then push them to GitHub's servers. If you are not familiar with git, you can directly edit these configuration and Markdown files directly in the github.com interface. Navigate to a file (like [this one](https://github.com/academicpages/academicpages.github.io/blob/master/_talks/2012-03-01-talk-1.md) and click the pencil icon in the top right of the content preview (to the right of the "Raw | Blame | History" buttons). You can delete a file by clicking the trashcan icon to the right of the pencil icon. You can also create new files or upload files by navigating to a directory and clicking the "Create new file" or "Upload files" buttons. 
+Backend Architecture (Java, Spring Boot)
+IoT Data Platforms & Distributed Systems
+Cloud Infrastructure (AWS)
+DevOps & CI/CD (Docker, GitHub Actions)Sports Analytics (Baseball performance analysis)
 
-Example: editing a Markdown file for a talk
-![Editing a Markdown file for a talk](/images/editing-talk.png)
 
-For more info
-------
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/), the [growing wiki](https://github.com/academicpages/academicpages.github.io/wiki), and you can always [ask a question on GitHub](https://github.com/academicpages/academicpages.github.io/discussions). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+## Appointments
+
+### Backend Engineer
+**Youngilee Co., Ltd., Jeju Island, South Korea**  
+*November 2024 – June 2026*
+
+- Deployed, maintained, and enhanced Spring Boot-based internal platforms and production backend services
+- Designed and improved IoT data pipelines integrating RTU devices, Node.js collectors, Java batch processing, databases, and platform servers
+- Developed REST APIs with API key authentication for external customers and public-sector agricultural IoT projects
+- Built Python-based data collection systems integrating weather, air quality, forecast, and alert data from the Korea Meteorological Administration (KMA)
+- Expanded a weather data platform from a Jeju-only deployment to a nationwide service by redesigning data collection and integration architecture
+- Analyzed and resolved system performance bottlenecks in Node.js and Spring Boot environments, including SQL query optimization and infrastructure stabilization
+- Redesigned legacy data collection architecture by introducing Java Batch, MQTT, and REST-based integration strategies to improve scalability and maintainability
+- Designed hybrid cloud and on-premises data architectures using AWS RDS and MySQL while supporting phased database upgrades through Blue-Green deployment strategies
+- Refactored legacy Spring Boot applications into layered architectures using Entity, DTO, Service, and REST Controller patterns
+- Participated in the planning and development of a React + Spring Boot integrated platform using Java 18, MySQL 8.4, React, and TypeScript
+- Represented the company at international weather and climate industry exhibitions, providing technical presentations and English interpretation for overseas business partners
+- Performed on-site installation, maintenance, and technical support for IoT and weather monitoring equipment
+
+**Globit Co., Ltd., Jeju Island, South Korea**  
+*June 2024 – October 2024*
+
+- Maintained and enhanced aquaculture platforms for the Fisheries Resources Research Institute of Gyeongsangnam-do
+- Designed and improved UI/UX for the Busan City HSI Project
+- Managed on-premises backend infrastructure, deployment, and system operations
+- Participated in WBS management and PRD documentation for the Aquaculture DX Project
+- Prepared and maintained ODA (Official Development Assistance) project documentation and related technical materials
+- Coordinated the procurement and overseas sourcing of IoT sensors and hardware equipment for aquaculture projects
+- Standardized payment and expense documentation templates across regional offices to improve administrative efficiency and consistency
+- Trained regional office staff on documentation procedures and internal approval workflows
+- Collaborated with internal and external stakeholders to support project planning and execution
+
+---
+
+### Java Backend Trainee
+
+**Multicampus Bootcamp**  
+*January 2024 – May 2024*
+
+- Learned fundamental backend development technologies including HTML, JavaScript, Java, Java GUI, Spring Legacy MVC, and Git
+- Led a Java study group by organizing learning sessions and supporting fellow trainees
+- Served as Team Leader and Project Manager for the final team project
+- Developed an SSR web application using Spring Boot, JPA, and React
+- Designed and implemented backend services and REST APIs for the project
+- Built containerized development and deployment environments using Docker
+- Configured CI/CD pipelines and automated deployment workflows using GitHub Actions
+- Collaborated in Agile-based team projects using Git and GitHub workflows
+
+---
